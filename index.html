@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>박찬흠 FA | 인카금융서비스 자산관리파트너</title>
+<meta name="description" content="인카금융서비스 FA 박찬흠. 보험 경력 13년. 연금·저축·보험 리모델링·펀드 상담.">
+<meta name="theme-color" content="#14213D">
+<meta name="format-detection" content="telephone=no">
+<!-- 링크 미리보기(카카오톡·문자) -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="박찬흠 FA · 자산관리파트너">
+<meta property="og:description" content="인카금융서비스 FA | 보험 경력 13년 — 모바일 명함">
+<meta property="og:url" content="https://moneylog-lab.github.io/pch/">
+<meta property="og:image" content="https://moneylog-lab.github.io/pch/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+  :root{
+    --bg:#F3F0EA; --paper:#FFFFFF; --ink:#141A24; --ink-2:#4A5262; --ink-3:#8A909C;
+    --navy:#14213D; --navy-2:#22345C; --gold:#B08D57; --gold-soft:#EFE6D6;
+    --line:#E6E1D8;
+    --r:20px;
+    color-scheme: light;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--bg);color:var(--ink);font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+    line-height:1.55;letter-spacing:-0.01em;-webkit-font-smoothing:antialiased;word-break:keep-all}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:440px;margin:0 auto;padding:0 0 calc(96px + env(safe-area-inset-bottom))}
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;background:var(--paper);border-radius:0 0 32px 32px;overflow:hidden;box-shadow:0 10px 30px -18px rgba(20,33,61,.35)}
+  .brand{display:flex;justify-content:space-between;align-items:center;padding:18px 22px 0;font-size:11px;letter-spacing:.18em;font-weight:600;color:var(--ink-3)}
+  .brand b{color:var(--navy);font-weight:700}
+  .photo{position:relative;height:380px;margin-top:6px}
+  .photo img{position:absolute;left:50%;bottom:0;transform:translateX(-50%);height:100%;width:auto;object-fit:contain}
+  .photo::after{content:"";position:absolute;inset:auto 0 0 0;height:120px;background:linear-gradient(to bottom,rgba(255,255,255,0),#fff 92%)}
+  .id{position:relative;margin-top:-58px;padding:0 24px 26px;text-align:center}
+  .role{display:inline-block;font-size:12px;font-weight:600;color:var(--gold);letter-spacing:.06em;padding:5px 12px;border:1px solid var(--gold);border-radius:999px;background:#fff}
+  .name{margin-top:12px;font-size:34px;font-weight:800;letter-spacing:-0.03em;color:var(--navy)}
+  .name small{display:block;font-size:13px;font-weight:500;letter-spacing:.12em;color:var(--ink-3);margin-top:2px}
+  .org{margin-top:10px;font-size:14.5px;color:var(--ink-2)}
+  .org strong{color:var(--ink);font-weight:700}
+
+  /* ---------- QUICK ACTIONS ---------- */
+  .actions{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:18px 16px 0}
+  .act{display:flex;flex-direction:column;align-items:center;gap:7px;padding:14px 4px 12px;background:var(--paper);border:1px solid var(--line);border-radius:16px;font-size:12px;font-weight:600;color:var(--ink-2);cursor:pointer;font-family:inherit}
+  .act:active{transform:scale(.97)}
+  .act i{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:#fff}
+  .act i svg{width:18px;height:18px}
+
+  /* ---------- SECTIONS ---------- */
+  section.card{margin:12px 16px 0;padding:22px 20px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r)}
+  .eyebrow{font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--gold);text-transform:uppercase}
+  h2{font-size:19px;font-weight:800;color:var(--navy);margin-top:4px;letter-spacing:-0.02em}
+  .quote{margin-top:14px;font-size:15.5px;line-height:1.75;color:var(--ink)}
+  .quote em{font-style:normal;font-weight:700;color:var(--navy);background:linear-gradient(transparent 62%,var(--gold-soft) 62%)}
+
+  .years{display:flex;align-items:baseline;gap:10px;margin-top:14px}
+  .years b{font-size:44px;font-weight:800;line-height:1;color:var(--navy);letter-spacing:-0.03em}
+  .years b span{font-size:22px;margin-left:2px}
+  .years p{font-size:15px;color:var(--ink-2)}
+
+  .certs{list-style:none;margin-top:14px;display:grid;gap:10px}
+  .certs li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+  .certs svg{flex:none;width:18px;height:18px;margin-top:2px;color:var(--gold)}
+
+  .chips{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:14px}
+  .chip{display:flex;align-items:center;gap:10px;padding:12px 12px;border-radius:14px;background:#F7F5F1;font-size:14px;font-weight:600;min-width:0}
+  .chip span{flex:none;width:30px;height:30px;border-radius:9px;background:var(--navy);color:var(--gold-soft);display:grid;place-items:center;font-size:12px;font-weight:700}
+
+  .foot{margin:22px 24px 0;text-align:center;font-size:11.5px;color:var(--ink-3);line-height:1.7}
+  .foot strong{color:var(--ink-2)}
+
+  /* ---------- STICKY CTA ---------- */
+  .cta{position:fixed;left:0;right:0;bottom:0;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:linear-gradient(to top,var(--bg) 70%,rgba(243,240,234,0))}
+  .cta .in{max-width:408px;margin:0 auto;display:grid;grid-template-columns:1fr 1.4fr;gap:8px}
+  .cta a{display:flex;align-items:center;justify-content:center;gap:8px;height:52px;border-radius:16px;font-size:15.5px;font-weight:700}
+  .cta .sms{background:#fff;color:var(--navy);border:1px solid var(--line)}
+  .cta .call{background:var(--navy);color:#fff;box-shadow:0 8px 20px -10px rgba(20,33,61,.7)}
+  .cta svg{width:18px;height:18px}
+
+  .toast{position:fixed;left:50%;bottom:96px;transform:translate(-50%,20px);background:var(--ink);color:#fff;font-size:13px;padding:10px 16px;border-radius:999px;opacity:0;transition:.25s;pointer-events:none}
+  .toast.on{opacity:1;transform:translate(-50%,0)}
+
+  @media (max-width:360px){ .photo{height:330px} .name{font-size:30px} .act{font-size:11px} }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <header class="hero">
+    <div class="brand"><span><b>INCAR</b> FINANCIAL SERVICE</span><span>FA</span></div>
+    <div class="photo"><img src="profile.jpg" alt="박찬흠 FA 프로필 사진" width="720" height="846"></div>
+    <div class="id">
+      <span class="role">자산관리파트너 · 보험전문가</span>
+      <h1 class="name">박찬흠<small>PARK CHANHEUM</small></h1>
+      <p class="org"><strong>인카금융서비스</strong> FA</p>
+    </div>
+  </header>
+
+  <nav class="actions" aria-label="빠른 연락">
+    <a class="act" href="tel:01030659374"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></i>전화</a>
+    <a class="act" href="sms:01030659374"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></i>문자</a>
+    <button class="act" id="vcard" type="button"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg></i>연락처 저장</button>
+    <button class="act" id="share" type="button"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg></i>공유</button>
+  </nav>
+
+  <section class="card">
+    <p class="eyebrow">Greeting</p>
+    <h2>위기에도, 노후에도 든든한 담당자</h2>
+    <p class="quote">보험은 위험한 상황에서 <em>가장 빛을 발하는 수단</em>입니다.<br><br>위기 대처와 함께 행복한 노후를 준비해드릴 수 있는<br>든든한 담당자입니다.</p>
+  </section>
+
+  <section class="card">
+    <p class="eyebrow">Career</p>
+    <h2>경력</h2>
+    <div class="years"><b>13<span>년</span></b><p>보험 업계 경력</p></div>
+  </section>
+
+  <section class="card">
+    <p class="eyebrow">Credentials</p>
+    <h2>자격</h2>
+    <ul class="certs">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>생명·손해보험 판매자격</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>변액보험 판매자격</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>보험심사평가사</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>의료행정상 자격</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>의료통역인</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <p class="eyebrow">Consulting</p>
+    <h2>주요 컨설팅</h2>
+    <div class="chips">
+      <div class="chip"><span>01</span>연금</div>
+      <div class="chip"><span>02</span>저축</div>
+      <div class="chip"><span>03</span>보험 리모델링</div>
+      <div class="chip"><span>04</span>펀드</div>
+    </div>
+  </section>
+
+  <p class="foot"><strong>인카금융서비스(주)</strong> · 박찬흠 FA<br>010-3065-9374</p>
+</main>
+
+<div class="cta"><div class="in">
+  <a class="sms" href="sms:01030659374"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>문자 상담</a>
+  <a class="call" href="tel:01030659374"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>전화 상담하기</a>
+</div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+  const toast = m => { const t=document.getElementById('toast'); t.textContent=m; t.classList.add('on'); setTimeout(()=>t.classList.remove('on'),1800); };
+
+  document.getElementById('vcard').addEventListener('click', () => {
+    const v = [
+      'BEGIN:VCARD','VERSION:3.0',
+      'N:박;찬흠;;;','FN:박찬흠',
+      'ORG:인카금융서비스','TITLE:FA / 자산관리파트너',
+      'TEL;TYPE=CELL:010-3065-9374',
+      'URL:' + location.href.split('#')[0],
+      'NOTE:보험 경력 13년 · 연금·저축·보험 리모델링·펀드 상담',
+      'END:VCARD'
+    ].join('\r\n');
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([v], {type:'text/vcard;charset=utf-8'}));
+    a.download = '박찬흠_인카금융서비스.vcf';
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+
+  document.getElementById('share').addEventListener('click', async () => {
+    const data = { title:'박찬흠 FA · 자산관리파트너', text:'인카금융서비스 박찬흠 FA 모바일 명함', url:location.href.split('#')[0] };
+    try {
+      if (navigator.share) { await navigator.share(data); return; }
+      await navigator.clipboard.writeText(data.url); toast('링크가 복사되었습니다');
+    } catch(e) { /* 사용자가 공유 취소 */ }
+  });
+</script>
+</body>
+</html>
